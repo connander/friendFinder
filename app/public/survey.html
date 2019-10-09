@@ -1,4 +1,4 @@
-<!-- I grabbed the html from the example page as a working base to have something to get the logic working-->
+<!-- I grabbed the html from an example project I found as a working base to have something to get the logic working-->
 <head>
     <meta charset="UTF-8">
     <title>FriendFinder</title>
@@ -13,7 +13,7 @@
 
     <div class="container">
       <div class="jumbotron">
-        <h1 class="text-center">Find Your Stranger Things BFF</h2>
+        <h1 class="text-center">Find a new friend!</h2>
           <br>
         <div class="text-center">
           <a href="/"><button type="button" class="btn btn-lg btn-danger"><span class="glyphicon glyphicon-home"></span> Home</button></a>
@@ -23,7 +23,7 @@
         <div class="col-lg-12">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h4 class="panel-description">Enter your name, a picture, and how well the statements below describe you.</h4>
+              <h4 class="panel-description">Enter your name, a picture, then choose from a scale of 1 to 5, with one being highly disagree to five being highly agree</h4>
             </div>
             <div class="panel-body">
               <form role="form">
@@ -38,123 +38,123 @@
   
                 <!-- Question 1 -->
                 <div class="form-group">
-                  <label for="question-one">1. You tend to work alone.</label>
+                  <label for="question-one">1. Your good idea for fun is going out on the town.</label>
                   <select data-placeholder="" class="chosen-select" id="question-one">
                     <option value=""></option>
-                    <option value="1">1 (Not like me)</option>
+                    <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
-                    <option value="5">5 (Just like me)</option>
+                    <option value="5">5</option>
                   </select>
                 </div>
                 <!-- Question 2 -->
                 <div class="form-group">
-                  <label for="question-two">2. You like playing Dungeons and Dragons.</label>
+                  <label for="question-two">2. There is nothing better than getting your hands dirty.</label>
                   <select data-placeholder="" class="chosen-select" id="question-two">
                     <option value=""></option>
-                    <option value="1">1 (Not like me)</option>
+                    <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
-                    <option value="5">5 (Just like me)</option>
+                    <option value="5">5</option>
                   </select>
                 </div>
                 <!-- Question 3 -->
                 <div class="form-group">
-                  <label for="question-three">3. You care deeply about what others think of you.</label>
+                  <label for="question-three">3. The water is a second home to you.</label>
                   <select data-placeholder="" class="chosen-select" id="question-three">
                     <option value=""></option>
-                    <option value="1">1 (Not like me)</option>
+                    <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
-                    <option value="5">5 (Just like me)</option>
+                    <option value="5">5</option>
                   </select>
                 </div>
                 <!-- Question 4 -->
                 <div class="form-group">
-                  <label for="question-four">4. You tend to be the leader in a group.</label>
+                  <label for="question-four">4. Making decisions day to day is hard for you.</label>
                   <select data-placeholder="" class="chosen-select" id="question-four">
                     <option value=""></option>
-                    <option value="1">1 (Not like me)</option>
+                    <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
-                    <option value="5">5 (Just like me)</option>
+                    <option value="5">5</option>
                   </select>
                 </div>
                 <!-- Question 5 -->
                 <div class="form-group">
-                  <label for="question-five">5. You've put your safety at risk for a friend.</label>
+                  <label for="question-five">5. You would do anything for your friends</label>
                   <select data-placeholder="" class="chosen-select" id="question-five">
                     <option value=""></option>
-                    <option value="1">1 (Not like me)</option>
+                    <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
-                    <option value="5">5 (Just like me)</option>
+                    <option value="5">5</option>
                   </select>
                 </div>
                 <!-- Question 6 -->
                 <div class="form-group">
-                  <label for="question-six">6. You're curious.</label>
+                  <label for="question-six">6. You have more books waiting to be read than you have actually read.</label>
                   <select data-placeholder="" class="chosen-select" id="question-six">
                     <option value=""></option>
-                    <option value="1">1 (Not like me)</option>
+                    <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
-                    <option value="5">5 (Just like me)</option>
+                    <option value="5">5</option>
                   </select>
                 </div>
                 <!-- Question 7 -->
                 <div class="form-group">
-                  <label for="question-seven">7. You have impeccable hair.</label>
+                  <label for="question-seven">7. The cold of an early morning while hunting is the best feeling.</label>
                   <select data-placeholder="" class="chosen-select" id="question-seven">
                     <option value=""></option>
-                    <option value="1">1 (Not like me)</option>
+                    <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
-                    <option value="5">5 (Just like me)</option>
+                    <option value="5">5</option>
                   </select>
                 </div>
                 <!-- Question 8 -->
                 <div class="form-group">
-                  <label for="question-eight">8. You enjoy a night in with friends rather than going out to a big party.</label>
+                  <label for="question-eight">8. There is nothing else quite like the feeling of fresh snow wash over you as you ski.</label>
                   <select data-placeholder="" class="chosen-select" id="question-eight">
                     <option value=""></option>
-                    <option value="1">1 (Not like me)</option>
+                    <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
-                    <option value="5">5 (Just like me)</option>
+                    <option value="5">5</option>
                   </select>
                 </div>
                 <!-- Question 9 -->
                 <div class="form-group">
-                  <label for="question-nine">9. You like learning about science and technology.</label>
+                  <label for="question-nine">9. Everyone asks you for help when they download too many toolbars onto their browser.</label>
                   <select data-placeholder="" class="chosen-select" id="question-nine">
                     <option value=""></option>
-                    <option value="1">1 (Not like me)</option>
+                    <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
-                    <option value="5">5 (Just like me)</option>
+                    <option value="5">5</option>
                   </select>
   
                 </div>
                 <!-- Question 10 -->
                 <div class="form-group">
-                  <label for="question-ten">10. You enjoy eating 3 Musketeers bars.</label>
+                  <label for="question-ten">10. You fear the existential dread that comes with the Old One's return.</label>
                   <select data-placeholder="" class="chosen-select" id="question-ten">
                     <option value=""></option>
-                    <option value="1">1 (Not like me)</option>
+                    <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
-                    <option value="5">5 (Just like me)</option>
+                    <option value="5">5</option>
                   </select>
                 </div>
 
@@ -230,7 +230,7 @@ $('.submit').on('click', function (event) {
       $("#matchPic").attr('src', data.photo);
 
       $("#resultsModal").modal('toggle');
-      
+
       $('#name').val('');
       $('#picture').val('');
       $('.chosen-select').val('');
