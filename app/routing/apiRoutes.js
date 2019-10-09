@@ -17,7 +17,7 @@ module.exports = function(app) {
             var difference = 0;
 
             for (var j = 0; j < guestScore.length; j++) {
-                var currentDif = Math.abs(parseInt(currentScore[j]) - parseInt(compare[j]));
+                var currentDif = Math.abs(parseInt(guestScore[j]) - parseInt(compare[j]));
                 difference = difference + currentDif;
             }
 
