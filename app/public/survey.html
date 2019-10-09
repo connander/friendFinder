@@ -1,0 +1,237 @@
+<!-- I grabbed the html from the example page as a working base to have something to get the logic working-->
+<head>
+    <meta charset="UTF-8">
+    <title>FriendFinder</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  
+  
+  
+  </head><body>
+
+    <div class="container">
+      <div class="jumbotron">
+        <h1 class="text-center">Find Your Stranger Things BFF</h2>
+          <br>
+        <div class="text-center">
+          <a href="/"><button type="button" class="btn btn-lg btn-danger"><span class="glyphicon glyphicon-home"></span> Home</button></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-description">Enter your name, a picture, and how well the statements below describe you.</h4>
+            </div>
+            <div class="panel-body">
+              <form role="form">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" class="form-control" id="name">
+                </div>
+                <div class="form-group">
+                  <label for="picture">Picture</label>
+                  <input type="text" class="form-control" id="picture" placeholder="Please include a picture of yourself">
+                </div>
+  
+                <!-- Question 1 -->
+                <div class="form-group">
+                  <label for="question-one">1. You tend to work alone.</label>
+                  <select data-placeholder="" class="chosen-select" id="question-one">
+                    <option value=""></option>
+                    <option value="1">1 (Not like me)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Just like me)</option>
+                  </select>
+                </div>
+                <!-- Question 2 -->
+                <div class="form-group">
+                  <label for="question-two">2. You like playing Dungeons and Dragons.</label>
+                  <select data-placeholder="" class="chosen-select" id="question-two">
+                    <option value=""></option>
+                    <option value="1">1 (Not like me)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Just like me)</option>
+                  </select>
+                </div>
+                <!-- Question 3 -->
+                <div class="form-group">
+                  <label for="question-three">3. You care deeply about what others think of you.</label>
+                  <select data-placeholder="" class="chosen-select" id="question-three">
+                    <option value=""></option>
+                    <option value="1">1 (Not like me)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Just like me)</option>
+                  </select>
+                </div>
+                <!-- Question 4 -->
+                <div class="form-group">
+                  <label for="question-four">4. You tend to be the leader in a group.</label>
+                  <select data-placeholder="" class="chosen-select" id="question-four">
+                    <option value=""></option>
+                    <option value="1">1 (Not like me)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Just like me)</option>
+                  </select>
+                </div>
+                <!-- Question 5 -->
+                <div class="form-group">
+                  <label for="question-five">5. You've put your safety at risk for a friend.</label>
+                  <select data-placeholder="" class="chosen-select" id="question-five">
+                    <option value=""></option>
+                    <option value="1">1 (Not like me)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Just like me)</option>
+                  </select>
+                </div>
+                <!-- Question 6 -->
+                <div class="form-group">
+                  <label for="question-six">6. You're curious.</label>
+                  <select data-placeholder="" class="chosen-select" id="question-six">
+                    <option value=""></option>
+                    <option value="1">1 (Not like me)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Just like me)</option>
+                  </select>
+                </div>
+                <!-- Question 7 -->
+                <div class="form-group">
+                  <label for="question-seven">7. You have impeccable hair.</label>
+                  <select data-placeholder="" class="chosen-select" id="question-seven">
+                    <option value=""></option>
+                    <option value="1">1 (Not like me)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Just like me)</option>
+                  </select>
+                </div>
+                <!-- Question 8 -->
+                <div class="form-group">
+                  <label for="question-eight">8. You enjoy a night in with friends rather than going out to a big party.</label>
+                  <select data-placeholder="" class="chosen-select" id="question-eight">
+                    <option value=""></option>
+                    <option value="1">1 (Not like me)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Just like me)</option>
+                  </select>
+                </div>
+                <!-- Question 9 -->
+                <div class="form-group">
+                  <label for="question-nine">9. You like learning about science and technology.</label>
+                  <select data-placeholder="" class="chosen-select" id="question-nine">
+                    <option value=""></option>
+                    <option value="1">1 (Not like me)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Just like me)</option>
+                  </select>
+  
+                </div>
+                <!-- Question 10 -->
+                <div class="form-group">
+                  <label for="question-ten">10. You enjoy eating 3 Musketeers bars.</label>
+                  <select data-placeholder="" class="chosen-select" id="question-ten">
+                    <option value=""></option>
+                    <option value="1">1 (Not like me)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Just like me)</option>
+                  </select>
+                </div>
+
+                <button type="submit" class="btn btn-info submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+
+  <footer class="footer">
+      <div class="container">
+        <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/connander/friendFinder">GitHub Repo</a></p>
+      </div>
+    </footer>
+
+  <div id="resultsModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"></button>
+            <h2 class="modal-title"><strong>Your best friend match is:</strong></h2>
+          </div>
+          <div class="modal-body">
+            <h2 id="matchName"></h2>
+            <br>
+            <img id="matchPic" alt="" height=500px width=500px overflow=hidden>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+ <script>    
+$('.submit').on('click', function (event) {
+  event.preventDefault();
+  function validate () {
+    var isValid = true;
+    $('.form-control').each(function () {
+      if ($(this).val() === '') {
+        isValid = false;
+      }
+    });
+    return isValid;
+  }
+  if (validate() === true) {
+    var newFriend = {
+      name: $('#name').val().trim(),
+      picture: $('#picture').val().trim(),
+      scores: [
+        Number($('#question-one').val().trim()),
+        Number($('#question-two').val().trim()),
+        Number($('#question-three').val().trim()),
+        Number($('#question-four').val().trim()),
+        Number($('#question-five').val().trim()),
+        Number($('#question-six').val().trim()),
+        Number($('#question-seven').val().trim()),
+        Number($('#question-eight').val().trim()),
+        Number($('#question-nine').val().trim()),
+        Number($('#question-ten').val().trim())
+      ]
+    };
+    var URL = window.location.origin;
+  $.post(URL + '/api/friends', newFriend,
+    function (data) {
+      $("#matchName").text(data.name);
+      $("#matchPic").attr('src', data.picture);
+      $("#resultsModal").modal('toggle');
+      console.log(data.name);
+      $('#name').val('');
+      $('#picture').val('');
+      $('.chosen-select').val('');
+    });
+  } else alert('Please complete all fields');
+});
+</script> 
