@@ -1,0 +1,23 @@
+{
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "Find a new friend!",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/connander/friendFinder"
+  },
+  "keywords": [
+    "friend-finder"
+  ],
+  "author": "Connor Stark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mford008/friend-finder/issues"
+  },
+  "homepage": "https://github.com/connander/friendFinder",
+  "dependencies": {
+    "express": "^4.16.2",
+    "path": "^0.12.7"
+  }
+}
