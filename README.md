@@ -25,9 +25,6 @@ To use this webpage, you navigate to the home page and click "Go to survey". Thi
 
 Repository link: https://github.com/connander/friendFinder
 
-Youtube link of product in action: 
-
-
 ## Technologies
 
 The tech used in this app are:
